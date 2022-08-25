@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:  0;
+}
+
+.class-menu{
+    width: 100%;
+    min-width: 5em;
+    background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
+    color: white;
+    padding: 1em 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.class-menu .ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.class-menu .li{
+    margin: 0 1em;
+    
+}
+.class-menu .a {
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+     background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);
+     font-family: 'Frank Ruhl Libre', serif;
+     color: white;
+}
+.main{
+    margin: 0 0 1em;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.seccion{
+    width: 100;
+    min-width: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.seccion .info{
+    font-size: 1.7em;
+}
+.seccion .h2{
+    font-weight: 600;
+    font-size: 1.7em;
+    
+
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.img1{
+    width: 20em;
+    height: 20em;
+    margin:auto;
+}
+
+
+/*-----------------------contacto----------------------*/
+.titulo-contacto{
+  
+    font-size: 1.7em;
+    padding: 1em;
+
+}
+.titulo-color{
+    color: darkred;
+}
+
+
+.formulario{
+    
+    padding-left: 1em;
+    width: 50%;
+    float: left;
+   
+
+    
+   
+}
+.formulario-derecha{
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+.color-jc{
+    color: darkred;
+}
+
+
+/*---------------------quienes-somos-----------------*/
+.titulo{
+    font-size: 1.7em;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.imagen-izquierda{
+    width: 50%;
+    float: left;
+    margin-left: 1em;
+}
+.texto-derecha{
+    width: 47%;
+    float: right;
+}
+
+/*---------------nuestros-productos-------------*/
+.titulo-productos{
+    font-size: 1.7em;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.producto1{
+  
+    padding-left: 1em;
+    margin: auto;
+    
+    
+
+}
+
+.producto1-img{
+    height: 240px;
+}
+.producto1-p{
+    text-align: left;
+    font-size: 1.5em;
+}
+.producto2{
+    margin: auto;
+    padding-left: 1em;
+        
+}
+.producto2-p{
+    font-size: 1.5em ;
+}
+.producto3{
+    margin: auto;
+    padding-left: 1em;
+    
+}
+.producto3-p{
+    font-size: 1.5em;
+}
